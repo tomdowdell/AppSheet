@@ -1,6 +1,6 @@
 # AppSheet
 
-I had way too much fun creating this sample. You are encouraged to dig around all files as there are comments and goodies throughout.
+I had way too much fun creating this sample and took it seriously. You are encouraged to dig around all files as there are comments and goodies throughout.
 
 ## Transparency
 - Some rust removal was necessary as it's been three years since I was working on backend code (as my resume clearly shows). That said, it's like riding a bike!
