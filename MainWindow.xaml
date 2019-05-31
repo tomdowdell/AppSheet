@@ -1,0 +1,60 @@
+﻿<Window x:Class="AppSheet1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AppSheet1"
+        mc:Ignorable="d"
+        Title="AppSheet + Tom Dowdell"
+		WindowState="Maximized"
+		>
+    <Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="Auto"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+
+		<StackPanel Grid.Row="0" Orientation="Horizontal" Height="40">
+
+			<TextBlock Text="Max Rows" Margin="8"/>
+			<TextBox x:Name="e_maxRows" Width="100" Margin="8"/>
+
+			<TextBlock Text="Sort By" Margin="8"/>
+			<ComboBox x:Name="e_sortBy" Width="200" Margin="8"/>
+
+			<CheckBox x:Name="e_descending" Content="Descending" Margin="8"/>
+
+			<CheckBox x:Name="e_validDetails" Content="Valid Details" Margin="8"/>
+
+			<CheckBox x:Name="e_validPhoneNumber" Content="Valid Phone Number" Margin="8"/>
+
+			<CheckBox x:Name="e_showPhoto" Content="Show Photo" Margin="8"/>
+
+			<Button x:Name="e_go" Click="E_go_Click" Width="200" Content="Go" Foreground="DarkBlue" Margin="8"/>
+
+			<CheckBox x:Name="e_useCache" Content="Use Cache" Margin="8" Checked="E_useCache_Checked" Unchecked="E_useCache_Unchecked"/>
+
+		</StackPanel>
+
+		<ListView x:Name="e_list" Grid.Row="1">
+			<ListView.View>
+				<GridView>
+					<GridViewColumn Header="Id" Width="120" DisplayMemberBinding="{Binding Id}" />
+					<GridViewColumn Header="Status Code" Width="120" DisplayMemberBinding="{Binding StatusCode}" />
+					<GridViewColumn Header="Retrieval Timestamp" Width="120" DisplayMemberBinding="{Binding RetrievalTimestamp}" />
+					<GridViewColumn Header="Name" Width="150" DisplayMemberBinding="{Binding Name}" />
+					<GridViewColumn Header="Age" Width="150" DisplayMemberBinding="{Binding Age}" />
+					<GridViewColumn Header="Phone Number" Width="150" DisplayMemberBinding="{Binding PhoneNumber}" />
+					<GridViewColumn Header="Photo" Width="150"  >
+						<GridViewColumn.CellTemplate>
+							<DataTemplate>
+								<Image Source="{Binding Photo}" />
+							</DataTemplate>
+						</GridViewColumn.CellTemplate>
+					</GridViewColumn>
+					<GridViewColumn Header="Bio" Width="150" DisplayMemberBinding="{Binding Bio}" />
+				</GridView>
+			</ListView.View>
+		</ListView>
+	</Grid>
+</Window>

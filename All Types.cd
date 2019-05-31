@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="AppSheet1.MiddleService">
+    <Position X="12.75" Y="3" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAAAAAAAAAAAAAAAAAABCEAAAAAAAAAAAA=</HashCode>
+      <FileName>MiddleService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSheet1.Retrievable">
+    <Position X="5.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Retrievable.cs</FileName>
+      <NewMemberFileName>Person.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSheet1.SampleService">
+    <Position X="9" Y="3" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAIQAAAAAAAAAAECAADKAAAAAAQAAAQAgA=</HashCode>
+      <FileName>SampleService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSheet1.Const">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Const.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSheet1.ListReturn">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>ListReturn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AppSheet1.Person">
+    <Position X="5.5" Y="2.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAACAECEAAQAQAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="AppSheet1.ReturnPair&lt;T&gt;">
+    <Position X="0.5" Y="2" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ReturnPair.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Enum Name="AppSheet1.PersonSort">
+    <Position X="9" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAACEAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PersonSort.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
