@@ -14,7 +14,9 @@ As you will see several liberties were taken:
 - For extra credit, instead of discussing *"how the design of the end-to-end service + app should change if the dataset were three orders of magnitude larger"* the code actually does it. Comments in the code discuss alternative approaches.
 
 ## Testing
-I opted to make the app more robust instead of discussing or adding test code. Great testing techniques and tools exist for the Microsoft stack but I have not used them, though do have some serious history doing rock solid testing. I cut my teeth testing at Microsoft and, as my resume shows, I created Microsoft's *"first automated server-based UI test system"* called GUTS that caused quite a lot of excitement, including my promotion into product development and an entire team hired to run my system.
+I opted to make the app more robust instead of discussing or adding test code. Great testing techniques and tools exist for the Microsoft stack but I have not used them, though do have some serious history doing rock solid testing. Perhaps the most relatable example:
+
+I cut my teeth testing at Microsoft and, as my resume shows, I created Microsoft's *"first automated server-based UI test system"* called GUTS that caused quite a lot of excitement, including my promotion into product development and an entire team hired to run my system.
 
 *Praveen, I bet my test system was still in use when you joined SQL Server.*
 
